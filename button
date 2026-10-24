@@ -1,0 +1,4 @@
+<section id="action">
+  <button id="paskoBtn" class="btn">Pindutin para sa Pasko! 🎄</button>
+  <p id="message"></p>
+</section>
