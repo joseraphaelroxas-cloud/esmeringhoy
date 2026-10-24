@@ -1,105 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pasko Ni JEra</title>
+  <style>
+  
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0c1c11; 
+      color: #f4f4f4;
+      line-height: 1.6;
+    }
 
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #0c1c11; 
-  color: #f4f4f4;
-  text-align: center;
-}
+   
+    .site-header {
+      background-color: #a81c1c; 
+      color: #fff;
+      padding: 24px;
+      text-align: center;
+      border-bottom: 5px solid #d4af37; 
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    }
 
+    .site-title {
+      margin: 0 0 16px;
+      font-size: 32px;
+      letter-spacing: 1px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
 
-header {
-  background-color: #a81c1c; 
-  padding: 25px 15px;
-  border-bottom: 5px solid #d4af37; 
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
-}
+   
+    .navbar ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+    }
 
-header h1 {
-  margin: 0 0 10px 0;
-  font-size: 2.5rem;
-  color: #ffffff;
-  text-shadow: 2px 2px 4px #000;
-}
+    .navbar a {
+      color: #fff8e7;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      transition: color 0.2s ease-in-out;
+    }
 
+    .navbar a:hover {
+      color: #d4af37;
+      text-decoration: underline;
+    }
 
-nav a {
-  color: #fff8e7;
-  text-decoration: none;
-  font-weight: bold;
-  margin: 0 12px;
-  font-size: 1.1rem;
-  transition: color 0.3s;
-}
+    
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 32px;
+      background-color: #142a1b;
+      border: 2px solid #2d5a38;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+    }
 
-nav a:hover {
-  color: #d4af37; 
-  text-decoration: underline;
-}
+  
+    article p {
+      font-size: 18px;
+      margin-bottom: 16px;
+    }
 
+  
+    section {
+      margin-top: 32px;
+      padding-top: 20px;
+      border-top: 2px dashed #a81c1c; 
+    }
 
-main {
-  max-width: 800px;
-  margin: 30px auto;
-  background-color: #142a1b;
-  padding: 25px;
-  border-radius: 12px;
-  border: 2px solid #2d5a38;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-}
+    h2 {
+      color: #d4af37; 
+      margin-bottom: 12px;
+    }
+  </style>
+</head>
+<body>
 
-h2 {
-  color: #d4af37; 
-  border-bottom: 2px dashed #a81c1c;
-  padding-bottom: 8px;
-}
+  <header class="site-header">
+    <h1 class="site-title">🎄 Pasko Ni Jera 🎄</h1>
 
-p {
-  line-height: 1.8;
-  font-size: 1.1rem;
-}
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#story">Story</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main id="home">
+    <article id="story">
+      <p>Isang gabi bago mag-Pasko, nag-alala si Jera na halos wala silang pambili ng handa, hanggang sa kumatok ang kapitbahay na si Aling Yanna na may dalang pancit at tinapay at inanyayahan silang ubusin ito.</p>
+      <p>Kaya nagdala rin sina Jr at Ken ng graham at soft drinks at nagtipon sila sa tindahan ni Aling Zof sa ilalim ng mga parol para magkuwentuhan.</p>
+      <p>Doon napagtanto ni Jera na hindi sa dami ng handa nasusukat ang Pasko, kundi sa dami ng taong handang magbahagi at magmahal.</p>
+    </article>
 
-figure {
-  margin: 25px 0;
-}
+    <section id="about">
+      <h2>Tungkol sa Kuwento</h2>
+      <p>Isang kuwento tungkol sa pagbibigayan, pagkakaibigan, at tunay na diwa ng Pasko.</p>
+    </section>
+  </main>
 
-figure img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-  border: 4px solid #ffffff;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-}
-
-figcaption {
-  font-size: 0.9rem;
-  color: #c0c0c0;
-  margin-top: 8px;
-}
-
-figcaption a {
-  color: #d4af37;
-}
-
-
-button {
-  background-color: #a81c1c; 
-  color: #ffffff;
-  font-size: 1.1rem;
-  font-weight: bold;
-  padding: 12px 24px;
-  border: 2px solid #d4af37; 
-  border-radius: 25px;
-  cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  transition: all 0.3s ease;
-  margin-top: 15px;
-}
-
-button:hover {
-  background-color: #d4af37; 
-  color: #0c1c11; 
-  transform: scale(1.05);
-}
+</body>
+</html>
