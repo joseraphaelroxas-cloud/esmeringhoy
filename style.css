@@ -1,18 +1,18 @@
-/* Base Page Styling */
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #0c1c11; /* Deep forest green */
+  background-color: #0c1c11; 
   color: #f4f4f4;
   text-align: center;
 }
 
-/* Header Styling */
+
 header {
-  background-color: #a81c1c; /* Crimson red */
+  background-color: #a81c1c; 
   padding: 25px 15px;
-  border-bottom: 5px solid #d4af37; /* Gold border */
+  border-bottom: 5px solid #d4af37; 
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
@@ -23,7 +23,7 @@ header h1 {
   text-shadow: 2px 2px 4px #000;
 }
 
-/* Navigation Links */
+
 nav a {
   color: #fff8e7;
   text-decoration: none;
@@ -34,11 +34,11 @@ nav a {
 }
 
 nav a:hover {
-  color: #d4af37; /* Gold on hover */
+  color: #d4af37; 
   text-decoration: underline;
 }
 
-/* Main Content Section */
+
 main {
   max-width: 800px;
   margin: 30px auto;
@@ -50,7 +50,7 @@ main {
 }
 
 h2 {
-  color: #d4af37; /* Festive Gold */
+  color: #d4af37; 
   border-bottom: 2px dashed #a81c1c;
   padding-bottom: 8px;
 }
@@ -60,7 +60,7 @@ p {
   font-size: 1.1rem;
 }
 
-/* Image & Caption Styling */
+
 figure {
   margin: 25px 0;
 }
@@ -83,14 +83,14 @@ figcaption a {
   color: #d4af37;
 }
 
-/* Button Styling */
+
 button {
-  background-color: #a81c1c; /* Festive Red */
+  background-color: #a81c1c; 
   color: #ffffff;
   font-size: 1.1rem;
   font-weight: bold;
   padding: 12px 24px;
-  border: 2px solid #d4af37; /* Gold border */
+  border: 2px solid #d4af37; 
   border-radius: 25px;
   cursor: pointer;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
@@ -99,7 +99,7 @@ button {
 }
 
 button:hover {
-  background-color: #d4af37; /* Gold on hover */
-  color: #0c1c11; /* Dark green text */
+  background-color: #d4af37; 
+  color: #0c1c11; 
   transform: scale(1.05);
 }
