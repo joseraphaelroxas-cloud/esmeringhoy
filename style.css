@@ -1,115 +1,131 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pasko Ni JEra</title>
-  <style>
-  
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #0c1c11; 
-      color: #f4f4f4;
-      line-height: 1.6;
-    }
+/* ==========================================
+   GLOBAL & LAYOUT STYLES
+   ========================================== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0c1c11; /* Forest Green */
+  color: #f4f4f4;
+  line-height: 1.6;
+}
 
-   
-    .site-header {
-      background-color: #a81c1c; 
-      color: #fff;
-      padding: 24px;
-      text-align: center;
-      border-bottom: 5px solid #d4af37; 
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
-    }
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 32px;
+  background-color: #142a1b;
+  border: 2px solid #2d5a38;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
 
-    .site-title {
-      margin: 0 0 16px;
-      font-size: 32px;
-      letter-spacing: 1px;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    }
+/* ==========================================
+   ROLE 1: HEADER DESIGNER STYLES
+   ========================================== */
+.site-header, header {
+  background-color: #a81c1c; /* Festive Red */
+  color: #ffffff;
+  padding: 24px;
+  text-align: center;
+  border-bottom: 5px solid #d4af37; /* Gold Trim */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
 
-   
-    .navbar ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      gap: 24px;
-    }
+.site-title, header h1 {
+  margin: 0 0 16px;
+  font-size: 32px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 
-    .navbar a {
-      color: #fff8e7;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 18px;
-      transition: color 0.2s ease-in-out;
-    }
+.navbar ul, nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
 
-    .navbar a:hover {
-      color: #d4af37;
-      text-decoration: underline;
-    }
+.navbar a, nav a {
+  color: #fff8e7;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.2s ease-in-out;
+}
 
-    
-    main {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 32px;
-      background-color: #142a1b;
-      border: 2px solid #2d5a38;
-      border-radius: 12px;
-      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
-    }
+.navbar a:hover, nav a:hover {
+  color: #d4af37; /* Gold on hover */
+  text-decoration: underline;
+}
 
-  
-    article p {
-      font-size: 18px;
-      margin-bottom: 16px;
-    }
+/* ==========================================
+   ROLE 2: CONTENT CREATOR STYLES
+   ========================================== */
+article p, section p {
+  font-size: 18px;
+  margin-bottom: 16px;
+  text-align: left;
+}
 
-  
-    section {
-      margin-top: 32px;
-      padding-top: 20px;
-      border-top: 2px dashed #a81c1c; 
-    }
+section {
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 2px dashed #a81c1c;
+}
 
-    h2 {
-      color: #d4af37; 
-      margin-bottom: 12px;
-    }
-  </style>
-</head>
-<body>
+h2 {
+  color: #d4af37;
+  margin-bottom: 12px;
+}
 
-  <header class="site-header">
-    <h1 class="site-title">🎄 Pasko Ni Jera 🎄</h1>
+/* ==========================================
+   ROLE 3: IMAGE MANAGER STYLES
+   ========================================== */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 4px solid #d4af37; /* Gold frame */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  margin: 20px 0 8px 0;
+}
 
-    <nav class="navbar">
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#story">Story</a></li>
-        <li><a href="#about">About</a></li>
-      </ul>
-    </nav>
-  </header>
+figure {
+  margin: 20px 0;
+  padding: 0;
+}
 
-  <main id="home">
-    <article id="story">
-      <p>Isang gabi bago mag-Pasko, nag-alala si Jera na halos wala silang pambili ng handa, hanggang sa kumatok ang kapitbahay na si Aling Yanna na may dalang pancit at tinapay at inanyayahan silang ubusin ito.</p>
-      <p>Kaya nagdala rin sina Jr at Ken ng graham at soft drinks at nagtipon sila sa tindahan ni Aling Zof sa ilalim ng mga parol para magkuwentuhan.</p>
-      <p>Doon napagtanto ni Jera na hindi sa dami ng handa nasusukat ang Pasko, kundi sa dami ng taong handang magbahagi at magmahal.</p>
-    </article>
+figcaption {
+  font-size: 14px;
+  color: #c0c0c0;
+  font-style: italic;
+}
 
-    <section id="about">
-      <h2>Tungkol sa Kuwento</h2>
-      <p>Isang kuwento tungkol sa pagbibigayan, pagkakaibigan, at tunay na diwa ng Pasko.</p>
-    </section>
-  </main>
+figcaption a {
+  color: #d4af37;
+}
 
-</body>
-</html>
+/* ==========================================
+   ROLE 4: BUTTON MAKER STYLES
+   ========================================== */
+button, .btn {
+  background-color: #a81c1c;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: 2px solid #d4af37;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+
+button:hover, .btn:hover {
+  background-color: #d4af37;
+  color: #0c1c11;
+  transform: scale(1.05);
+}
