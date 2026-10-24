@@ -38,11 +38,59 @@
     .navbar a:hover {
       text-decoration: underline;
     }
+
+    .image-container {
+      margin: 25px auto;
+      text-align: center;
+    }
+
+    .christmas-image {
+      width: 90%;
+      max-width: 600px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    #story p,
+    #about p {
+      line-height: 1.7;
+    }
+
+    .btn-container {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .greet-btn {
+      background: #c0392b;
+      color: #fff;
+      border: none;
+      padding: 12px 28px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .greet-btn:hover {
+      background: #a93226;
+    }
+
+    #greeting {
+      margin-top: 15px;
+      font-size: 18px;
+      color: #1f3a5f;
+    }
   </style>
 </head>
+
 <body>
 
-  <header class="site-header">
+  <header class="site-header" id="home">
     <h1 class="site-title">Pasko Ni JEra</h1>
 
     <nav class="navbar">
@@ -54,17 +102,60 @@
     </nav>
   </header>
 
-  <main id="home">
+  <main>
+
+    <section class="image-container">
+      <img
+        src="xmas.jpg"
+        alt="Christmas celebration and decorations"
+        class="christmas-image"
+      >
+    </section>
+
     <article id="story">
-      <p> Isang gabi bago mag-Pasko, nag-alala si Jera na halos wala silang pambili ng handa, hanggang sa kumatok ang kapitbahay na si Aling Yanna na may dalang pancit at tinapay at inanyayahan silang ubusin ito. </p>
-      <p>Kaya nagdala rin sina Jr at Ken ng graham at soft drinks at nagtipon sila sa tindahan ni Aling Zof sa ilalim ng mga parol para magkuwentuhan.</p>
-      <p>Doon napagtanto ni Jera na hindi sa dami ng handa nasusukat ang Pasko, kundi sa dami ng taong handang magbahagi at magmahal.</p>
+      <h2>Ang Kuwento ni Jera</h2>
+
+      <p>
+        Isang gabi bago mag-Pasko, nag-alala si Jera na halos wala
+        silang pambili ng handa, hanggang sa kumatok ang kapitbahay
+        na si Aling Yanna na may dalang pancit at tinapay at
+        inanyayahan silang ubusin ito.
+      </p>
+
+      <p>
+        Kaya nagdala rin sina Jr at Ken ng graham at soft drinks
+        at nagtipon sila sa tindahan ni Aling Zof sa ilalim ng
+        mga parol para magkuwentuhan.
+      </p>
+
+      <p>
+        Doon napagtanto ni Jera na hindi sa dami ng handa nasusukat
+        ang Pasko, kundi sa dami ng taong handang magbahagi at magmahal.
+      </p>
     </article>
 
     <section id="about">
       <h2>Tungkol sa Kuwento</h2>
-      <p> Isang kuwento tungkol sa pagbibigayan, pagkakaibigan, at tunay na diwa ng Pasko. </p>
+
+      <p>
+        Isang kuwento tungkol sa pagbibigayan, pagkakaibigan,
+        at tunay na diwa ng Pasko.
+      </p>
     </section>
+
+    <section class="btn-container">
+      <button class="greet-btn" onclick="showGreeting()">Batiin si Jera</button>
+      <p id="greeting"></p>
+    </section>
+
   </main>
 
+  <script>
+    function showGreeting() {
+      document.getElementById("greeting").textContent =
+        "Maligayang Pasko, Jera! 🎄 Salamat sa pagbabahagi!";
+    }
+  </script>
+
 </body>
+</html>
