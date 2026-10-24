@@ -2,37 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pasko ni Jera</title>
-    <link rel="stylesheet" href="main.css">
 </head>
 <body>
 
-  <header class="site-header">
-    <h1 class="site-title">Pasko ni Jera</h1>
+    <h1>Pasko ni Jera</h1>
 
-    <nav class="navbar">
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#story">Story</a></li>
-        <li><a href="#about">About</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main id="home">
-    <article id="story">
-      <h2>Ang Kuwento</h2>
-      <p>Isang gabi bago mag-Pasko, nag-alala si Jera na halos wala silang pambili ng handa, hanggang sa kumatok ang kapitbahay na si Aling Yanna na may dalang pancit at tinapay at inanyayahan silang ubusin ito.</p>
-      <p>Kaya nagdala rin sina Jr at Ken ng graham at soft drinks at nagtipon sila sa tindahan ni Aling Zof sa ilalim ng mga parol para magkuwentuhan.</p>
-      <p>Doon napagtanto ni Jera na hindi sa dami ng handa nasusukat ang Pasko, kundi sa dami ng taong handang magbahagi at magmahal.</p>
-    </article>
-
-    <section id="about">
-      <h2>Tungkol sa Kuwento</h2>
-      <p>Isang kuwento tungkol sa pagbibigayan, pagkakaibigan, at tunay na diwa ng Pasko.</p>
-    </section>
-  </main>
+    <h2>Ang Kuwento</h2>
+    <p>
+        Isang gabi bago mag-Pasko, nag-alala si Jera dahil kulang ang kanilang
+        pambili ng handa. Dumating ang kanilang mga kapitbahay na may dalang
+        pagkain upang magbahagi. Sama-sama silang nagkuwentuhan at nagdiwang
+        ng Pasko. Natutuhan ni Jera na ang tunay na diwa ng Pasko ay hindi
+        nasusukat sa dami ng handa, kundi sa pagmamahalan, pagkakaibigan,
+        at pagbibigayan.
+    </p>
 
 </body>
 </html>
